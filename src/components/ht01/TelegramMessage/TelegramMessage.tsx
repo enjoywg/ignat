@@ -13,7 +13,7 @@ function TelegramMessage(props: TelegramMessageType) {
     return (
         <div className={classes.message}>
             <div className={classes.ava}>
-                {props.ava}
+                <img src={props.ava} />
             </div>
             <div className={classes.textBox}>
                 <div className={classes.name}>
